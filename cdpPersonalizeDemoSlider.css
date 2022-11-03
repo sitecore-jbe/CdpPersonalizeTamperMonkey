@@ -48,5 +48,5 @@
 #sitecoreCdpPersonalize-slider button { padding: 9px 39px 8px 39px; color: #FFF; background-color: #005E6E; font-size: 18px; text-align: center; font-style: normal; border-radius: 5px; width: 100%; border-width: 0px; margin-bottom: 10px; }
 
 #sitecoreCdpPersonalize-slider .formfields { margin-bottom: 3px; border: none; }
-#sitecoreCdpPersonalize-slider label { display: block; margin-bottom: 8px; font-size: .70em; font-family: [[Font]]; text-transform: lowercase; }
+#sitecoreCdpPersonalize-slider label { display: block; margin-bottom: 8px; font-size: 16px; text-align: left; font-family: [[Font]]; text-transform: lowercase; }
 #sitecoreCdpPersonalize-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
