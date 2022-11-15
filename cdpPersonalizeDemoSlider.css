@@ -28,7 +28,6 @@
 .demobar-container::-webkit-scrollbar-track { background: #fff; /* color of the tracking area */}
 .demobar-container::-webkit-scrollbar-thumb { background-color: #005E6E; /* color of the scroll thumb */border-radius: 20px; /* roundness of the scroll thumb */ border: 3px solid #fff; /* creates padding around scroll thumb */}
 
-#scDemoTool-sentiment {display: inline;}
 
 #scDemoTool-slider #saveMsg { background-color: #333378; color: white; padding: 5px; text-align: center; margin: 16px; border-radius: 5px; position: absolute; width: 410px; }
 
@@ -50,5 +49,5 @@
 #scDemoTool-slider button { padding: 9px 39px 8px 39px; color: #FFF; background-color: #005E6E; font-size: 18px; text-align: center; font-style: normal; border-radius: 5px; width: 100%; border-width: 0px; margin-bottom: 10px; }
 
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
-#scDemoTool-slider label { margin-bottom: 8px; font-size: 16px; text-align: left; font-family: [[Font]]; text-transform: lowercase; }
+#scDemoTool-slider label { margin-bottom: 8px; font-size: 16px; text-align: left; font-family: [[Font]]; display: inline;}
 #scDemoTool-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
