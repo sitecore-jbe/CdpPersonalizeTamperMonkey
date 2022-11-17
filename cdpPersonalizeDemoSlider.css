@@ -51,3 +51,9 @@
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
 #scDemoTool-slider label { margin-bottom: 8px; font-size: 16px; text-align: left; font-family: [[Font]]; display: inline;}
 #scDemoTool-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
+
+#scDemoTool-slider .inline { 
+    display: inline-block; 
+    border: 1px solid red; 
+    margin:10px;
+    }
