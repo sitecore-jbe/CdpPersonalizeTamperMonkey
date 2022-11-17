@@ -26,7 +26,7 @@
 .demobar-container { width: 99%; max-width: 440px; margin: 5px auto; overflow-y: auto; }
 .demobar-container::-webkit-scrollbar { width: 12px; /* width of the entire scrollbar */}
 .demobar-container::-webkit-scrollbar-track { background: #fff; /* color of the tracking area */}
-.demobar-container::-webkit-scrollbar-thumb { background-color: #005E6E; /* color of the scroll thumb */border-radius: 20px; /* roundness of the scroll thumb */ border: 3px solid #fff; /* creates padding around scroll thumb */}
+/* .demobar-container::-webkit-scrollbar-thumb { background-color: #005E6E; /* color of the scroll thumb */border-radius: 20px; /* roundness of the scroll thumb */ border: 3px solid #fff; /* creates padding around scroll thumb */} */
 
 
 #scDemoTool-slider #saveMsg { background-color: #333378; color: white; padding: 5px; text-align: center; margin: 16px; border-radius: 5px; position: absolute; width: 410px; }
