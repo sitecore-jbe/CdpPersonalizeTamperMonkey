@@ -50,7 +50,7 @@
 #scDemoTool-slider select { padding: 6px; height: 32px; border-radius: 2px; }
 
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
-#scDemoTool-slider .demobar-accordion-content div { margin-left: 10px; font-size: 16px; text-align: left;}
+#scDemoTool-slider .demobar-accordion-content div { margin-left: 10px; font-size: 16px; text-align: left; }
 /* #scDemoTool-slider .demobar-accordion-content div label { margin-bottom: 8px; font-size: 16px; text-align: left; font-family: [[Font]]; display: inline;}
 #scDemoTool-slider .demobar-accordion-content div i { margin-bottom: 8px; font-size: 16px; font-weight:500; text-align: left; font-family: [[Font]]; display: inline;} */
 
