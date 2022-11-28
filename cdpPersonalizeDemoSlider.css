@@ -52,7 +52,6 @@
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
 #scDemoTool-slider .demobar-accordion-content div { margin-left: 10px; font-size: 16px; font-weight: 500; }
 #scDemoTool-slider .demobar-accordion-content div label { display: inline; font-weight: 700; text-transform: capitalize;}
-#scDemoTool-slider .demobar-accordion-content div i { display: inline; text-transform: capitalize;}
 
 #scDemoTool-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
 
