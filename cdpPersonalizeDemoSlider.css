@@ -33,7 +33,7 @@
 
 /* #scDemoTool-slider button { padding: 9px 39px 8px 39px; color: #FFF; background-color: #005E6E; font-size: 18px; text-align: center; font-style: normal; border-radius: 5px; width: 100%; border-width: 0px; margin-bottom: 10px; } */
 
-#scDemoTool-slider button.demobar-accordion { width: 100%; background-color: whitesmoke; border: none; outline: none; text-align: left; padding: 15px 20px; font-size: 18px; color:#212621; text-transform: lowercase; cursor: pointer; transition: background-color 0.2s linear; font-weight: 300; font-family: [[Font]]; }
+#scDemoTool-slider button.demobar-accordion { width: 100%; background-color: whitesmoke; border: none; outline: none; text-align: left; padding: 10px 20px; font-size: 18px; color:#212621; text-transform: lowercase; cursor: pointer; transition: background-color 0.2s linear; font-weight: 300; font-family: [[Font]]; }
 
 #scDemoTool-slider button.demobar-accordion:after { content: "+"; font-size: 18px; float: right; }
 #scDemoTool-slider button.demobar-accordion.is-open:after { content: "-"; }
@@ -51,6 +51,8 @@
 
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
 #scDemoTool-slider label { margin-bottom: 8px; font-size: 16px; text-align: left; font-family: [[Font]]; display: inline;}
+#scDemoTool-slider i { margin-bottom: 8px; font-size: 16px; font-weight:500; text-align: left; font-family: [[Font]]; display: inline;}
+
 #scDemoTool-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
 
 #scDemoTool-slider .inline { 
