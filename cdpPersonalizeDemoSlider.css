@@ -33,8 +33,7 @@
 
 /* #scDemoTool-slider button { padding: 9px 39px 8px 39px; color: #FFF; background-color: #005E6E; font-size: 18px; text-align: center; font-style: normal; border-radius: 5px; width: 100%; border-width: 0px; margin-bottom: 10px; } */
 
-#scDemoTool-slider button.demobar-accordion { width: 100%; background-color: whitesmoke; border: none; outline: none; text-align: left; padding: 10px 20px; font-size: 18px; color:#212621; text-transform: lowercase; cursor: pointer; transition: background-color 0.2s linear; font-weight: 300; font-family: [[Font]]; }
-
+#scDemoTool-slider button.demobar-accordion { width: 100%; background-color: whitesmoke; border: none; text-align: left; padding: 15px 10px 15px 5px; font-size: 16px; color: #212621; text-transform: capitalize; cursor: pointer; transition: background-color 0.2s linear; font-weight: 600;}
 #scDemoTool-slider button.demobar-accordion:after { content: "+"; font-size: 18px; float: right; }
 #scDemoTool-slider button.demobar-accordion.is-open:after { content: "-"; }
 #scDemoTool-slider button.demobar-accordion:hover, #scDemoTool-slider button.accordion.is-open { background-color: #ddd; }
@@ -53,6 +52,8 @@
 #scDemoTool-slider .demobar-accordion-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
 #scDemoTool-slider .demobar-accordion-content div .demobarlabel { display: inline; font-weight: bold; text-transform: capitalize;}
 #scDemoTool-slider .demobar-accordion-content div .demobarvalue { display: inline; font-weight: normal; text-transform: capitalize;}
+
+
 
 #scDemoTool-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
 
