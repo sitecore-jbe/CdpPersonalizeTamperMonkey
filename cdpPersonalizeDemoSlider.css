@@ -51,8 +51,8 @@
 
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
 #scDemoTool-slider .demobar-accordion-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
-#scDemoTool-slider .demobar-accordion-content div .label { display: inline; font-weight: bold; text-transform: capitalize;}
-#scDemoTool-slider .demobar-accordion-content div .value { display: inline; font-weight: normal; text-transform: capitalize;}
+#scDemoTool-slider .demobar-accordion-content div .demobarlabel { display: inline; font-weight: bold; text-transform: capitalize;}
+#scDemoTool-slider .demobar-accordion-content div .demobarvalue { display: inline; font-weight: normal; text-transform: capitalize;}
 
 #scDemoTool-slider label.light { font-weight: 300; display: inline; font-family: [[Font]]; }
 
