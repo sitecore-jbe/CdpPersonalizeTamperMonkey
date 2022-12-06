@@ -57,10 +57,10 @@
 #scDemoTool-slider .demobar-accordion-content div .demobarvalue { display: inline; font-weight: normal; text-transform: capitalize;}
 #scDemoTool-slider .demobar-accordion-content div .demobarseparator { margin:0px;}
 
-.jBox-Tooltip .jBox-container .jBox-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
-.jBox-Tooltip .jBox-container .jBox-content .tooltiplabel { display: inline; font-weight: bold; text-transform: capitalize;}
-.jBox-Tooltip .jBox-container .jBox-content .tooltipvalue { display: inline; font-weight: normal; text-transform: capitalize;}
-.jBox-Tooltip .jBox-container .jBox-content .tooltipseparator { margin:0px;}
+.jBox-container .jBox-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
+.jBox-container .jBox-content .tooltiplabel { display: inline; font-weight: bold; text-transform: capitalize;}
+.jBox-container .jBox-content .tooltipvalue { display: inline; font-weight: normal; text-transform: capitalize;}
+.jBox-container .jBox-content .tooltipseparator { margin:0px;}
 
 
 
