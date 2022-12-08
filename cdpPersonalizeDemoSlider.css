@@ -53,13 +53,13 @@
 #scDemoTool-slider .demobar-accordion-content div.demobardataextensioncontainer { margin-left: 0px; font-size: 13px; font-weight: normal; }
 #scDemoTool-slider .demobar-accordion-content div.demobardataextensioncontainer .demobardataextension { margin-left: 15px; }
 #scDemoTool-slider .demobar-accordion-content div .demobarcopyicon {cursor: pointer; }
-#scDemoTool-slider .demobar-accordion-content div .demobarlabel { display: inline; font-weight: bold; text-transform: capitalize;}
-#scDemoTool-slider .demobar-accordion-content div .demobarvalue { display: inline; font-weight: normal; text-transform: capitalize;}
+#scDemoTool-slider .demobar-accordion-content div .propertylabel { display: inline; font-weight: bold; text-transform: capitalize;}
+#scDemoTool-slider .demobar-accordion-content div .propertyvalue { display: inline; font-weight: normal; text-transform: capitalize;}
 #scDemoTool-slider .demobar-accordion-content div .separator { margin:0px;}
 
 .jBox-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
-.jBox-content .tooltiplabel { display: inline; font-weight: bold; text-transform: capitalize;}
-.jBox-content .tooltipvalue { display: inline; font-weight: normal; text-transform: capitalize;}
+.jBox-content .propertylabel { display: inline; font-weight: bold; text-transform: capitalize;}
+.jBox-content .propertyvalue { display: inline; font-weight: normal; text-transform: capitalize;}
 .jBox-content .separator { margin:0px;}
 
 
