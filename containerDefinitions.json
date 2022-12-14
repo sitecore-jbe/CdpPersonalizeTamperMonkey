@@ -16,7 +16,14 @@
         {
           "Object": "Guest",
           "Name": "ref",
-          "Link": "https://app.boxever.com/#/guests/{{guestRef}}",
+          "Link": "https://app.boxever.com/#/guests/{{GuestRef}}",
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
+        },
+        {
+          "Label": "Browser Id",
+          "Name": "{{BrowserId}}",
+          "CopyToClipboardValue": "{{BrowserId}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
