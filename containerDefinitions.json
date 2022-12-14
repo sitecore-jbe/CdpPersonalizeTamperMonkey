@@ -14,6 +14,34 @@
       "RefreshOnDisplay": true,
       "Properties": [
         {
+          "Name": "city",
+          "HtmlElementID": "city",
+          "CSSClass": "",
+          "Datatype": "string",
+          "Seperator": false,
+          "Display": true,
+          "DisplayInTooltip": true,
+          "Collapsable": false,
+          "Label": "",
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": "",
+          "TreatAsEmptyValues": "",
+          "AlwaysOverwrite": true,
+          "OverwriteIfEmpty": false,
+          "OverwriteValue": null,
+          "DisplaySubProperties": true,
+          "SubProperties": null
+        }
+      ]
+    },
+    {
+      "Name": "Session Information",
+      "HtmlElementID": "Session Information",
+      "CSSClass": "",
+      "RefreshOnDisplay": true,
+      "Properties": [
+        {
           "Name": "sessionType",
           "HtmlElementID": "sessionType",
           "CSSClass": "",
