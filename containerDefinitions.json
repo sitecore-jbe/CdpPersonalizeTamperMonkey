@@ -98,13 +98,15 @@
           "Object": "Guest",
           "Name": "firstSeen",
           "DataType": "DateTime",
-          "DisplayInTooltip": true
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
         },
         {
           "Object": "Guest",
           "Name": "lastSeen",
           "DataType": "DateTime",
-          "DisplayInTooltip": true
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
         },
         {
           "Seperator": true
@@ -113,13 +115,15 @@
           "Object": "Guest",
           "Name": "createdAt",
           "DataType": "DateTime",
-          "DisplayInTooltip": true
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
         },
         {
           "Object": "Guest",
           "Name": "modifiedAt",
           "DataType": "DateTime",
-          "DisplayInTooltip": true
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
         }
       ]
     },
