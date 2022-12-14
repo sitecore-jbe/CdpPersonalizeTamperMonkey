@@ -90,6 +90,36 @@
           "Name": "gender",
           "TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true
+        },
+        {
+          "Seperator": true
+        },
+        {
+          "Object": "Guest",
+          "Name": "firstSeen",
+          "DataType": "DateTime",
+          "DisplayInTooltip": true
+        },
+        {
+          "Object": "Guest",
+          "Name": "lastSeen",
+          "DataType": "DateTime",
+          "DisplayInTooltip": true
+        },
+        {
+          "Seperator": true
+        },
+        {
+          "Object": "Guest",
+          "Name": "createdAt",
+          "DataType": "DateTime",
+          "DisplayInTooltip": true
+        },
+        {
+          "Object": "Guest",
+          "Name": "modifiedAt",
+          "DataType": "DateTime",
+          "DisplayInTooltip": true
         }
       ]
     },
