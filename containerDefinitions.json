@@ -16,7 +16,7 @@
         {
           "Name": "guestType",
           "DisplayInTooltip": true,
-          "Icon": "",
+          "Icon": ""
         },
         {
           "Name": "title",
@@ -70,7 +70,7 @@
           "HtmlElementId": "gender",
           "TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true,
-          "Icon": "",
+          "Icon": ""
         }
       ]
     },
