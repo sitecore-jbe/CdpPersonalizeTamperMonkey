@@ -23,7 +23,7 @@
         {
           "Label": "Browser Id",
           "Name": "{{BrowserId}}",
-          "CopyToClipboardValue": "{{BrowserId}}",
+          "CopyToClipboardValue": "bid:{{BrowserId}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
