@@ -15,102 +15,55 @@
       "Properties": [
         {
           "Name": "guestType",
-          "HtmlElementId": "guestType",
-          "CSSClass": "",
-          "DataType": "string",
-          "Seperator": false,
-          "Display": true,
           "DisplayInTooltip": true,
-          "Collapsable": false,
           "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true,
-          "TreatAsEmptyValues": "empty",
-          "AlwaysOverwrite": false,
-          "OverwriteIfEmpty": false,
-          "OverwriteValue": null,
-          "DisplaySubProperties": true,
-          "SubProperties": null
         },
         {
           "Name": "title",
-          "HtmlElementId": "title",
-          "CSSClass": "",
-          "DataType": "string",
-          "Seperator": false,
-          "Display": true,
           "DisplayInTooltip": true,
           "Icon": "",
-          "CreateIfEmptyValue": true,
           "TreatAsEmptyValues": [ "Unknown", "unknown" ]
         },
         {
           "Name": "firstName",
-          "HtmlElementId": "firstName",
           "DisplayInTooltip": true,
           "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true
         },
         {
           "Name": "lastName",
-          "HtmlElementId": "lastName",
           "DisplayInTooltip": true,
           "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true
         },
         {
           "Name": "email",
-          "HtmlElementId": "email",
           "DisplayInTooltip": true,
           "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true
         },
         {
           "Name": "city",
-          "HtmlElementId": "city",
           "DisplayInTooltip": true,
-          "Icon": "",
-          "CreateIfEmptyValue": true
+          "Icon": ""
         },
         {
           "Name": "country",
-          "CSSClass": "",
-          "DataType": "string",
           "DisplayInTooltip": true,
-          "Collapsable": false,
-          "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true,
-          "TreatAsEmptyValues": "empty",
-          "AlwaysOverwrite": false,
-          "OverwriteIfEmpty": false,
-          "OverwriteValue": null,
-          "DisplaySubProperties": true,
-          "SubProperties": null
+          "Icon": ""
         },
         {
-          "Seperator": true,
-          "Display": true
+          "Seperator": true
         },
         {
           "Name": "language",
           "HtmlElementId": "language",
           "DisplayInTooltip": true,
-          "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true
+          "Icon": ""
         },
         {
           "Name": "dateOfBirth",
           "HtmlElementId": "dateofBirth",
           "DataType": "DateTime",
           "DisplayInTooltip": true,
-          "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true
+          "Icon": ""
         },
         {
           "Name": "gender",
@@ -118,7 +71,6 @@
           "TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true,
           "Icon": "",
-          "CopyToClipboardValue": ""
         }
       ]
     },
