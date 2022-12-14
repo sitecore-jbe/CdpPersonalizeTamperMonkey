@@ -14,15 +14,14 @@
       "RefreshOnDisplay": true,
       "Properties": [
         {
-          "Name": "city",
-          "HtmlElementId": "city",
+          "Name": "guestType",
+          "HtmlElementId": "guestType",
           "CSSClass": "",
           "DataType": "string",
           "Seperator": false,
           "Display": true,
           "DisplayInTooltip": true,
           "Collapsable": false,
-          "Label": "City",
           "Icon": "",
           "CopyToClipboardValue": "",
           "CreateIfEmptyValue": true,
@@ -32,6 +31,49 @@
           "OverwriteValue": null,
           "DisplaySubProperties": true,
           "SubProperties": null
+        },
+        {
+          "Name": "title",
+          "HtmlElementId": "title",
+          "CSSClass": "",
+          "DataType": "string",
+          "Seperator": false,
+          "Display": true,
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CreateIfEmptyValue": true,
+          "TreatAsEmptyValues": [ "Unknown", "unknown" ]
+        },
+        {
+          "Name": "firstName",
+          "HtmlElementId": "firstName",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": true
+        },
+        {
+          "Name": "lastName",
+          "HtmlElementId": "lastName",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": true
+        },
+        {
+          "Name": "email",
+          "HtmlElementId": "email",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": true
+        },
+        {
+          "Name": "city",
+          "HtmlElementId": "city",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CreateIfEmptyValue": true
         },
         {
           "Name": "country",
@@ -48,6 +90,35 @@
           "OverwriteValue": null,
           "DisplaySubProperties": true,
           "SubProperties": null
+        },
+        {
+          "Seperator": true,
+          "Display": true
+        },
+        {
+          "Name": "language",
+          "HtmlElementId": "language",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": true
+        },
+        {
+          "Name": "dateOfBirth",
+          "HtmlElementId": "dateofBirth",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": true
+        },
+        {
+          "Name": "gender",
+          "HtmlElementId": "gender",
+          "DisplayInTooltip": true,
+          "Icon": "",
+          "CopyToClipboardValue": "",
+          "CreateIfEmptyValue": true,
+          "TreatAsEmptyValues": ["Unknown", "unknown"]
         }
       ]
     },
