@@ -96,6 +96,15 @@
         },
         {
           "Object": "Guest",
+          "Name": "dataExtensions",
+          "DataType": "Array",
+          "DisplayInTooltip": true,
+        },
+        {
+          "Seperator": true
+        },
+        {
+          "Object": "Guest",
           "Name": "firstSeen",
           "DataType": "DateTime",
           "DisplayInTooltip": true,
