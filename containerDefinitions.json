@@ -16,7 +16,15 @@
         {
           "DataObject": "guest",
           "Name": "ref",
-          "Link": "https://app.boxever.com/#/guests/{{guestRef}}",          
+          "Link": "https://app.boxever.com/#/guests/{{guestRef}}",
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
+        },
+        {
+          "DataObject": "guest",
+          "Label": "#Sessions",
+          "Name": "{{SessionsCount}}",
+          "Link": "https://app.boxever.com/#/guests/{{guestRef}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
