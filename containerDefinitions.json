@@ -27,17 +27,17 @@
         {
           "Name": "firstName",
           "DisplayInTooltip": true,
-          "Icon": "",
+          "Icon": ""
         },
         {
           "Name": "lastName",
           "DisplayInTooltip": true,
-          "Icon": "",
+          "Icon": ""
         },
         {
           "Name": "email",
           "DisplayInTooltip": true,
-          "Icon": "",
+          "Icon": ""
         },
         {
           "Name": "city",
