@@ -14,40 +14,45 @@
       "RefreshOnDisplay": true,
       "Properties": [
         {
+          "DataObject": "guest",
+          "Name": "ref",
+          "Link": {
+            "Prototype" : "https://app.boxever.com/#/guests/{1}",
+            "VariableProperties": [ {"{1}": "ref"} ]
+          },
+          "DisplayInTooltip": true,
+          "Icon": "Calculated"
+        },
+        {
+          "DataObject": "guest",
           "Name": "guestType",
           "DisplayInTooltip": true,
-          "Icon": ""
+          "Icon": "Calculated"
         },
         {
           "Name": "title",
           "DisplayInTooltip": true,
-          "Icon": "",
           "TreatAsEmptyValues": [ "Unknown", "unknown" ]
         },
         {
           "Name": "firstName",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Name": "lastName",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Name": "email",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Name": "city",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Name": "country",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Seperator": true
@@ -55,22 +60,17 @@
         {
           "Name": "language",
           "HtmlElementId": "language",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Name": "dateOfBirth",
-          "HtmlElementId": "dateofBirth",
           "DataType": "DateTime",
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         },
         {
           "Name": "gender",
-          "HtmlElementId": "gender",
           "TreatAsEmptyValues": [ "Unknown", "unknown" ],
-          "DisplayInTooltip": true,
-          "Icon": ""
+          "DisplayInTooltip": true
         }
       ]
     },
