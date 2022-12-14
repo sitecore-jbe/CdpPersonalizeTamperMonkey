@@ -106,6 +106,7 @@
         {
           "Name": "dateOfBirth",
           "HtmlElementId": "dateofBirth",
+          "DataType": "DateTime",
           "DisplayInTooltip": true,
           "Icon": "",
           "CopyToClipboardValue": "",
@@ -114,11 +115,10 @@
         {
           "Name": "gender",
           "HtmlElementId": "gender",
+          "TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true,
           "Icon": "",
-          "CopyToClipboardValue": "",
-          "CreateIfEmptyValue": true,
-          "TreatAsEmptyValues": ["Unknown", "unknown"]
+          "CopyToClipboardValue": ""
         }
       ]
     },
