@@ -23,7 +23,6 @@
           "DisplayInTooltip": true,
           "Icon": "",
           "TreatAsEmptyValues": null
-          //"TreatAsEmptyValues": [ "Unknown", "unknown" ]
         },
         {
           "Name": "firstName",
@@ -70,7 +69,6 @@
           "Name": "gender",
           "HtmlElementId": "gender",
           "TreatAsEmptyValues": null,
-          //"TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true,
           "Icon": ""
         }
