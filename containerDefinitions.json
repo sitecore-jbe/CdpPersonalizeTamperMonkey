@@ -16,10 +16,7 @@
         {
           "DataObject": "guest",
           "Name": "ref",
-          "Link": {
-            "Prototype" : "https://app.boxever.com/#/guests/{1}",
-            "VariableProperties": [ {"{1}": "ref"} ]
-          },
+          "Link": "https://app.boxever.com/#/guests/{{guestRef}}",          
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
