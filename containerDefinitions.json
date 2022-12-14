@@ -14,47 +14,52 @@
       "RefreshOnDisplay": true,
       "Properties": [
         {
-          "DataObject": "guest",
+          "Object": "Guest",
           "Name": "ref",
           "Link": "https://app.boxever.com/#/guests/{{guestRef}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
-          "DataObject": "guest",
           "Label": "#Sessions",
           "Name": "{{SessionsCount}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
-          "DataObject": "guest",
+          "Object": "Guest",
           "Name": "guestType",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
+          "Object": "Guest",
           "Name": "title",
           "DisplayInTooltip": true,
           "TreatAsEmptyValues": [ "Unknown", "unknown" ]
         },
         {
+          "Object": "Guest",
           "Name": "firstName",
           "DisplayInTooltip": true
         },
         {
+          "Object": "Guest",
           "Name": "lastName",
           "DisplayInTooltip": true
         },
         {
+          "Object": "Guest",
           "Name": "email",
           "DisplayInTooltip": true
         },
         {
+          "Object": "Guest",
           "Name": "city",
           "DisplayInTooltip": true
         },
         {
+          "Object": "Guest",
           "Name": "country",
           "DisplayInTooltip": true
         },
@@ -62,16 +67,19 @@
           "Seperator": true
         },
         {
+          "Object": "Guest",
           "Name": "language",
           "HtmlElementId": "language",
           "DisplayInTooltip": true
         },
         {
+          "Object": "Guest",
           "Name": "dateOfBirth",
           "DataType": "DateTime",
           "DisplayInTooltip": true
         },
         {
+          "Object": "Guest",
           "Name": "gender",
           "TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true
