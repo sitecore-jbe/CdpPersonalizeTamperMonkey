@@ -15,59 +15,59 @@
       "Properties": [
         {
           "Object": "Guest",
-          "Name": "ref",
+          "Property": "ref",
           "Link": "https://app.boxever.com/#/guests/{{GuestRef}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
           "Label": "Browser Id",
-          "Name": "{{BrowserId}}",
+          "Value": "{{BrowserId}}",
           "CopyToClipboardValue": "bid:{{BrowserId}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
           "Label": "#Sessions",
-          "Name": "{{SessionsCount}}",
+          "Value": "{{SessionsCount}}",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
           "Object": "Guest",
-          "Name": "guestType",
+          "Property": "guestType",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
           "Object": "Guest",
-          "Name": "title",
+          "Property": "title",
           "DisplayInTooltip": true,
           "TreatAsEmptyValues": [ "Unknown", "unknown" ]
         },
         {
           "Object": "Guest",
-          "Name": "firstName",
+          "Property": "firstName",
           "DisplayInTooltip": true
         },
         {
           "Object": "Guest",
-          "Name": "lastName",
+          "Property": "lastName",
           "DisplayInTooltip": true
         },
         {
           "Object": "Guest",
-          "Name": "email",
+          "Property": "email",
           "DisplayInTooltip": true
         },
         {
           "Object": "Guest",
-          "Name": "city",
+          "Property": "city",
           "DisplayInTooltip": true
         },
         {
           "Object": "Guest",
-          "Name": "country",
+          "Property": "country",
           "DisplayInTooltip": true
         },
         {
@@ -75,19 +75,19 @@
         },
         {
           "Object": "Guest",
-          "Name": "language",
+          "Property": "language",
           "HtmlElementId": "language",
           "DisplayInTooltip": true
         },
         {
           "Object": "Guest",
-          "Name": "dateOfBirth",
+          "Property": "dateOfBirth",
           "DataType": "DateTime",
           "DisplayInTooltip": true
         },
         {
           "Object": "Guest",
-          "Name": "gender",
+          "Property": "gender",
           "TreatAsEmptyValues": [ "Unknown", "unknown" ],
           "DisplayInTooltip": true
         },
@@ -96,32 +96,32 @@
         },
         {
           "Object": "Guest",
-          "Name": "dataExtensions",
+          "Property": "dataExtensions",
           "DataType": "Array",
           "DisplayInTooltip": true,
           "Properties": [
             {
-              "Name": "name"
+              "Property": "name"
             },
             {
-              "Name": "key"
+              "Property": "key"
             },
             {
               "Seperator": true
             },
             {
-              "Name": "ref",
+              "Property": "ref",
               "Icon": "Calculated"
             },
             {
               "Seperator": true
             },
             {
-              "Name": "createdAt",
+              "Property": "createdAt",
               "Icon": "Calculated"
             },
             {
-              "Name": "modifiedAt",
+              "Property": "modifiedAt",
               "Icon": "Calculated"
             }
           ]
@@ -131,14 +131,14 @@
         },
         {
           "Object": "Guest",
-          "Name": "firstSeen",
+          "Property": "firstSeen",
           "DataType": "DateTime",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
           "Object": "Guest",
-          "Name": "lastSeen",
+          "Property": "lastSeen",
           "DataType": "DateTime",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
@@ -148,14 +148,14 @@
         },
         {
           "Object": "Guest",
-          "Name": "createdAt",
+          "Property": "createdAt",
           "DataType": "DateTime",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
         },
         {
           "Object": "Guest",
-          "Name": "modifiedAt",
+          "Property": "modifiedAt",
           "DataType": "DateTime",
           "DisplayInTooltip": true,
           "Icon": "Calculated"
@@ -169,7 +169,7 @@
       "RefreshOnDisplay": true,
       "Properties": [
         {
-          "Name": "sessionType",
+          "Property": "sessionType",
           "HtmlElementId": "sessionType",
           "CSSClass": "",
           "DataType": "String",
@@ -189,7 +189,7 @@
           "SubProperties": null
         },
         {
-          "Name": "channel",
+          "Property": "channel",
           "HtmlElementId": "channel",
           "CSSClass": "",
           "DataType": "String",
@@ -209,7 +209,7 @@
           "SubProperties": null
         },
         {
-          "Name": "status",
+          "Property": "status",
           "HtmlElementId": "status",
           "CSSClass": "",
           "DataType": "String",
@@ -229,7 +229,7 @@
           "SubProperties": null
         },
         {
-          "Name": "contact",
+          "Property": "contact",
           "HtmlElementId": "contact",
           "CSSClass": "",
           "DataType": "String",
@@ -249,7 +249,7 @@
           "SubProperties": null
         },
         {
-          "Name": "duration",
+          "Property": "duration",
           "HtmlElementId": "duration",
           "CSSClass": "",
           "DataType": "String",
@@ -269,7 +269,7 @@
           "SubProperties": null
         },
         {
-          "Name": "pointOfSale",
+          "Property": "pointOfSale",
           "HtmlElementId": "pointOfSale",
           "CSSClass": "",
           "DataType": "String",
@@ -289,7 +289,7 @@
           "SubProperties": null
         },
         {
-          "Name": "language",
+          "Property": "language",
           "HtmlElementId": "language",
           "CSSClass": "",
           "DataType": "String",
@@ -309,7 +309,7 @@
           "SubProperties": null
         },
         {
-          "Name": "cartType",
+          "Property": "cartType",
           "HtmlElementId": "cartType",
           "CSSClass": "",
           "DataType": "String",
@@ -329,7 +329,7 @@
           "SubProperties": null
         },
         {
-          "Name": "value",
+          "Property": "value",
           "HtmlElementId": "value",
           "CSSClass": "",
           "DataType": "String",
@@ -349,7 +349,7 @@
           "SubProperties": null
         },
         {
-          "Name": "currency",
+          "Property": "currency",
           "HtmlElementId": "currency",
           "CSSClass": "",
           "DataType": "String",
@@ -373,7 +373,7 @@
           "Display": true
         },
         {
-          "Name": "referer",
+          "Property": "referer",
           "HtmlElementId": "referer",
           "CSSClass": "",
           "DataType": "String",
@@ -393,7 +393,7 @@
           "SubProperties": null
         },
         {
-          "Name": "firstPageURI",
+          "Property": "firstPageURI",
           "HtmlElementId": "firstPageURI",
           "CSSClass": "",
           "DataType": "String",
@@ -413,7 +413,7 @@
           "SubProperties": null
         },
         {
-          "Name": "lastPageURI",
+          "Property": "lastPageURI",
           "HtmlElementId": "lastPageURI",
           "CSSClass": "",
           "DataType": "String",
@@ -437,7 +437,7 @@
           "Display": true
         },
         {
-          "Name": "events",
+          "Property": "events",
           "HtmlElementId": "events",
           "CSSClass": "",
           "DataType": "Array",
@@ -461,7 +461,7 @@
           "Display": true
         },
         {
-          "Name": "dataExtensions",
+          "Property": "dataExtensions",
           "HtmlElementId": "dataExtensions",
           "CSSClass": "",
           "DataType": "Array",
@@ -485,7 +485,7 @@
           "Display": true
         },
         {
-          "Name": "operatingSystem",
+          "Property": "operatingSystem",
           "HtmlElementId": "operatingSystem",
           "CSSClass": "",
           "DataType": "String",
@@ -505,7 +505,7 @@
           "SubProperties": null
         },
         {
-          "Name": "userAgent",
+          "Property": "userAgent",
           "HtmlElementId": "userAgent",
           "CSSClass": "",
           "DataType": "String",
@@ -529,7 +529,7 @@
           "Display": true
         },
         {
-          "Name": "ref",
+          "Property": "ref",
           "HtmlElementId": "ref",
           "CSSClass": "",
           "DataType": "DateTime",
@@ -549,7 +549,7 @@
           "SubProperties": null
         },
         {
-          "Name": "guestRef",
+          "Property": "guestRef",
           "HtmlElementId": "guestRef",
           "CSSClass": "",
           "DataType": "Guid",
@@ -569,7 +569,7 @@
           "SubProperties": null
         },
         {
-          "Name": "browserRef",
+          "Property": "browserRef",
           "HtmlElementId": "browserRef",
           "CSSClass": "",
           "DataType": "Guid",
@@ -589,7 +589,7 @@
           "SubProperties": null
         },
         {
-          "Name": "clientKey",
+          "Property": "clientKey",
           "HtmlElementId": "clientKey",
           "CSSClass": "",
           "DataType": "Guid",
@@ -614,7 +614,7 @@
         },
 
         {
-          "Name": "startedAt",
+          "Property": "startedAt",
           "HtmlElementId": "startedAt",
           "CSSClass": "",
           "DataType": "DateTime",
@@ -634,7 +634,7 @@
           "SubProperties": null
         },
         {
-          "Name": "createdAt",
+          "Property": "createdAt",
           "HtmlElementId": "ref",
           "CSSClass": "",
           "DataType": "DateTime",
@@ -654,7 +654,7 @@
           "SubProperties": null
         },
         {
-          "Name": "modifiedAt",
+          "Property": "modifiedAt",
           "HtmlElementId": "modifiedAt",
           "CSSClass": "",
           "DataType": "DateTime",
@@ -674,7 +674,7 @@
           "SubProperties": null
         },
         {
-          "Name": "endedAt",
+          "Property": "endedAt",
           "HtmlElementId": "endedAt",
           "CSSClass": "",
           "DataType": "DateTime",
