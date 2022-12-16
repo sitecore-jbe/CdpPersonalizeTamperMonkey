@@ -95,6 +95,7 @@
           "Seperator": true
         },
         {
+          "Object": "Guest",
           "Property": "dataExtensions",
           "DataType": "Array",
           "DisplayInTooltip": true,
