@@ -55,6 +55,7 @@
 #scDemoTool-slider .demobar-accordion-content div .demobarcopyicon {cursor: pointer; }
 #scDemoTool-slider .demobar-accordion-content div .propertylabel { display: inline; font-weight: bold; text-transform: capitalize;}
 #scDemoTool-slider .demobar-accordion-content div .propertyvalue { display: inline; font-weight: normal; text-transform: capitalize;}
+#scDemoTool-slider .demobar-accordion-content div .arraypropertytitle { margin:0px;}
 #scDemoTool-slider .demobar-accordion-content div .separator { margin:0px;}
 
 .jBox-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
