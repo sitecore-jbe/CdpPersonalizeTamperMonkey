@@ -5,7 +5,7 @@
 [[Background Plus Top Margin | number | 75 | {group: Closing Button, order: 2 }]]
 */
 
-/* #bx-{{ref}} a, #bx-{{ref}} p, #bx-{{ref}} span, #bx-{{ref}} h3 { font-family: Arial; font-weight: 300; line-height: 1.2; } */
+
 #scDemoTool-slider { overflow-x: scroll; overflow-y: scroll; position: fixed; top: 0; right: -450px; height: 100%; width: 450px; background-color: #fff; z-index: 99999; transition: right 1.6s ease-in-out; box-shadow: 0 0.2rem 0.4rem 0.2rem rgba(0, 0, 0, 0.1); font-family: Arial; }
 #scDemoTool-slider.open { right: 0; }
 
@@ -23,20 +23,20 @@
 .close__btn-close-icon:before { content: ''; height: 24px; border-left: 4px solid #ffffff; position: absolute; transform: rotate(-90deg); }
 
 /* accordion and scrollbar */
-.demobar-container { width: 99%; max-width: 440px; margin: 5px auto; }
-.demobar-container::-webkit-scrollbar { width: 12px; /* width of the entire scrollbar */}
-.demobar-container::-webkit-scrollbar-track { background: #fff; /* color of the tracking area */}
-.demobar-container::-webkit-scrollbar-thumb { background-color: #005E6E; /* color of the scroll thumb */border-radius: 20px; /* roundness of the scroll thumb */ border: 3px solid #fff; /* creates padding around scroll thumb */}
+.demobar-accordion { width: 99%; max-width: 440px; margin: 5px auto; }
+.demobar-accordion::-webkit-scrollbar { width: 12px; /* width of the entire scrollbar */}
+.demobar-accordion::-webkit-scrollbar-track { background: #fff; /* color of the tracking area */}
+.demobar-accordion::-webkit-scrollbar-thumb { background-color: #005E6E; /* color of the scroll thumb */border-radius: 20px; /* roundness of the scroll thumb */ border: 3px solid #fff; /* creates padding around scroll thumb */}
 
 
 #scDemoTool-slider #saveMsg { background-color: #333378; color: white; padding: 5px; text-align: center; margin: 16px; border-radius: 5px; position: absolute; width: 410px; }
 
 /* #scDemoTool-slider button { padding: 9px 39px 8px 39px; color: #FFF; background-color: #005E6E; font-size: 18px; text-align: center; font-style: normal; border-radius: 5px; width: 100%; border-width: 0px; margin-bottom: 10px; } */
 
-#scDemoTool-slider button.demobar-accordion { width: 100%; background-color: whitesmoke; border: none; text-align: left; padding: 15px 10px 15px 5px; font-size: 16px; color: #212621; text-transform: capitalize; cursor: pointer; transition: background-color 0.2s linear; font-weight: 600;}
-#scDemoTool-slider button.demobar-accordion:after { content: "+"; font-size: 18px; float: right; }
-#scDemoTool-slider button.demobar-accordion.is-open:after { content: "-"; }
-#scDemoTool-slider button.demobar-accordion:hover, #scDemoTool-slider button.accordion.is-open { background-color: #ddd; }
+#scDemoTool-slider button.demobar-accordion-button { width: 100%; background-color: whitesmoke; border: none; text-align: left; padding: 15px 10px 15px 5px; font-size: 16px; color: #212621; text-transform: capitalize; cursor: pointer; transition: background-color 0.2s linear; font-weight: 600;}
+#scDemoTool-slider button.demobar-accordion-button:after { content: "+"; font-size: 18px; float: right; }
+#scDemoTool-slider button.demobar-accordion-button.is-open:after { content: "-"; }
+#scDemoTool-slider button.demobar-accordion-button:hover, #scDemoTool-slider button.accordion.is-open { background-color: #ddd; }
 #scDemoTool-slider .demobar-accordion-content { background-color: white; height: 500px; width: 400px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-in-out; }
 #scDemoTool-slider form { max-width: 475px; margin: 10px auto; }
 
@@ -50,19 +50,31 @@
 
 #scDemoTool-slider .formfields { margin-bottom: 3px; border: none; }
 #scDemoTool-slider .demobar-accordion-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
-#scDemoTool-slider .demobar-accordion-content div.demobardataextensioncontainer { margin-left: 0px; font-size: 13px; font-weight: normal; }
-#scDemoTool-slider .demobar-accordion-content div.demobardataextensioncontainer .demobardataextension { margin-left: 15px; }
+#scDemoTool-slider .demobar-accordion-content div.demobarcollapsablecontainer { margin-left: 0px; font-size: 13px; font-weight: normal; background-color: whitesmoke; }
+#scDemoTool-slider .demobar-accordion-content div.demobarcollapsablecontainer .demobardataextension { margin-left: 15px; }
+#scDemoTool-slider .demobar-accordion-content div.demobarcollapsablecontainer .collapsablecontainercontent { margin-left: 15px; }
+#scDemoTool-slider .demobar-accordion-content div.demobarcollapsablecontainer .demobarcollapsablecontainerheader .property {  display: inline-block; }
+
+
+#scDemoTool-slider label {float: none;}
 #scDemoTool-slider .demobar-accordion-content div .demobarcopyicon {cursor: pointer; }
+#scDemoTool-slider .demobar-accordion-content div .demobarlabel { display: inline-block; }
 #scDemoTool-slider .demobar-accordion-content div .propertylabel { display: inline; font-weight: bold; text-transform: capitalize;}
-#scDemoTool-slider .demobar-accordion-content div .propertyvalue { display: inline; font-weight: normal; text-transform: capitalize;}
-#scDemoTool-slider .demobar-accordion-content div .arraypropertytitle { margin:0px;}
-#scDemoTool-slider .demobar-accordion-content div .arraypropertyelement { border:1px;}
+
+#scDemoTool-slider .demobar-accordion-content div .propertyvalue { display: inline; font-weight: normal;}
+#scDemoTool-slider .demobar-accordion-content div.arraypropertytitle { margin:0px;}
+#scDemoTool-slider .demobar-accordion-content div.arraypropertyelement { border:1px solid grey; margin-bottom: 10px; margin-left: 19px; margin-right: 10px;}
 #scDemoTool-slider .demobar-accordion-content div .separator { margin:0px;}
+
+#scDemoTool-slider .demobar-accordion-content .collapsablecontainercaret { display: inline-block; }
 
 .jBox-content div { margin-left: 5px; font-size: 13px; font-weight: normal; }
 .jBox-content .propertylabel { display: inline; font-weight: bold; text-transform: capitalize;}
 .jBox-content .propertyvalue { display: inline; font-weight: normal; text-transform: capitalize;}
 .jBox-content .separator { margin:0px;}
+.jBox-content label {float: none;}
+.jBox-content label.tooltipheader { display: inline; font-weight: bold; font-size: 15px; }
+.jBox-content hr.tooltipheader { margin-top: 5px; margin-bottom: 15px;}
 
 
 
